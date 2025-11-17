@@ -74,8 +74,8 @@ for annee in annees:
 # Affichage des resultats
 for niveau in niveaux:
     for annee in annees:
-        for region in ['AIN','AINES']:
-            print(f"{annee} Nombre moyen d'élèves en {niveau} dans f{region}: {moy[niveau][annee]}")
+        for region in ['AIN','VAUCLUSE']:
+            print(f"{annee} Nombre moyen d'élèves en {niveau} dans {region}: {moy[niveau][annee][region]}")
 
 
 # Recherche pour chaque année de la région avec la plus grande moyenne d'élève par classe de CP
